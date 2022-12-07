@@ -21,7 +21,8 @@ PROCESO DE CLONACIÓN O DESCARGA DE GITHUB / IMPORTACIÓN DE LA BASE DE DATOS / 
 • Colocar el siguiente comando en la terminal: cd "ruta de la carpeta del sistema”
   Ejemplo: cd C:\Users\maiko\OneDrive\Escritorio\Unidad-IV---Proyecto-de-Backend  
 • Una vez dentro de la carpeta podemos ejecutar el comando “npx nodemon” o “npm start” para iniciar el sistema.  
-• Completada esta serie de pasos, podremos comenzar a utilizar el sistema con nuestras consultas en postman, ARC, REST CLIENT o cualquier otro programa.
+• Completada esta serie de pasos, podremos comenzar a utilizar el sistema con nuestras consultas en postman, ARC, REST CLIENT o cualquier otro programa.  
+• Para finalizar el sistema, basta con realizar la operación ctrl + C en la terminal
 
 
 ANEXAMOS LAS CONSULTAS QUE SE PUEDEN REALIZAR A LA BASE DE DATOS PARA FACILITAR LA EXPERIENCIA DEL USUARIO 
