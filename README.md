@@ -4,10 +4,12 @@ Objetivos: - Aplicar todos los conocimientos aprendidos en un solo proyecto. - D
 PROCESO DE CLONACIÓN O DESCARGA DE GITHUB / IMPORTACIÓN DE LA BASE DE DATOS / EJECUCIÓN EL PROGRAMA
 
 1- Clonación y Descarga en GitHub
+
 • Para descargar el proyecto, basta con ir a nuestro repositorio de GitHub, y seleccionar la opción de “download”, inmediatamente el proyecto comenzara su descarga, y para finalizar arrastramos la carpeta descargada al VSC.
 • Como una alternativa a la descarga podemos clonar nuestro proyecto, basta con copiar el link del repositorio de GitHub, abrir una consola de (Git Bash) en el escritorio y utilizar el comando “git clone”, podremos observar cómo el proyecto de descarga de GitHub y crea una carpeta, la misma la arrastraremos al VSC.
 
 2- Importación de la base de datos
+
 • Primeramente, ejecutamos el XAMPP, el mismo es un paquete de software libre, que consiste principalmente en el sistema de gestión de bases de datos MySQL.
 • Ejecutamos el Apache y el MySQL estando dentro del XAMPP
 • Entramos en el localhost de phpMySdmin para gestionar nuestra base de datos.
@@ -15,6 +17,7 @@ PROCESO DE CLONACIÓN O DESCARGA DE GITHUB / IMPORTACIÓN DE LA BASE DE DATOS / 
 • Al tener la base de datos creada, nos vamos al apartado de “importar” y seleccionamos el archivo de la base de datos dentro nuestro equipo, hacemos clic en el botón importar, con esto ya tendríamos la base de datos lista dentro de nuestro phpMyAdmin.
 
 3- Ejecución el programa
+
 • Volvemos a donde teníamos nuestro Visual Studio Code.
 • Si deseamos ver nuestra base de datos, podemos instalar las extensiones (MySQL, MySQL Syntax).
 • Con control + ñ abrimos la terminal en el VSC. Otra opción es presionar la Tecla Windows + R, escribir cmd, y dar click en aceptar para abrir la terminal en Windows.
