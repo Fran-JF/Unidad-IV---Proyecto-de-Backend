@@ -24,10 +24,10 @@ PROCESO DE CLONACIÓN O DESCARGA DE GITHUB / IMPORTACIÓN DE LA BASE DE DATOS / 
 •	Completada esta serie de pasos, podremos comenzar a utilizar el sistema con nuestras consultas en postman, ARC, REST CLIENT o cualquier otro programa.
 
 
-ANEXAMOS LAS CONSULTAS QUE SE PUEDEN REALIZAR A LA BASE DE DATOS PARA FACILITAR LA EXPERIENCIA DEL USUARIO.
-SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
+ANEXAMOS LAS CONSULTAS QUE SE PUEDEN REALIZAR A LA BASE DE DATOS PARA FACILITAR LA EXPERIENCIA DEL USUARIO 
+SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LOS METODOS:
 
-***** Para Ingresar un provedor POST *****
+***** Para Ingresar un proveedor - POST *****
 
 {
     "nombre":" ",
@@ -35,7 +35,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "ubicacion":" "
 }
 
-***** Para Ingresar un tecnico POST *****
+***** Para Ingresar un técnico - POST *****
 
 {
     "nombre":" ",
@@ -43,7 +43,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "profesion":" "
 }
 
-***** Para Ingresar un equipo POST *****
+***** Para Ingresar un equipo - POST *****
 
 {
     "nombre_e":" ",
@@ -54,7 +54,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "id_provedor":" "
 }
 
-***** Para ingresar un trabajo POST *****
+***** Para ingresar un trabajo - POST *****
 
 {
     "id_t":" ",
@@ -66,7 +66,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "id_tecnico":" "
 }
 
-***** Para Ingresar un periferico POST *****
+***** Para Ingresar un periférico - POST *****
 
 {
     "nombre":"",
@@ -76,7 +76,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "precio":""
 }
 
-***** Para actualizar un registro de provedor PUT *****
+***** Para actualizar un registro de proveedor - PUT *****
 
 {
     "id":" ",
@@ -85,7 +85,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "ubicacion":" "
 }
 
-***** Para actualizar un registro de tecnicos PUT *****
+***** Para actualizar un registro de técnicos - PUT *****
 
 {
     "id":"",
@@ -94,7 +94,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "profesion":""
 }
 
-***** Para actualizar un registro de perifericos PUT *****
+***** Para actualizar un registro de periféricos - PUT *****
 
 {
     "id":"",
@@ -105,7 +105,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "precio":""
 }
 
-***** Para actualizar un registro de equipo PUT *****
+***** Para actualizar un registro de equipo - PUT *****
 
 {
     "id_e":" ",
@@ -116,7 +116,7 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "fecha_puesta_marcha_mante_e":" "
 }
 
-***** Para actualizar un registro de trabajo PUT *****
+***** Para actualizar un registro de trabajo - PUT *****
 
 {
     "id_t":" ",
@@ -126,64 +126,64 @@ SE RECOMIENDA UTILIZAR POSTMAN PARA REALIZAR LAS CONSULTAS:
     "estatus":" "
 }
 
-***** Para borrar un registro de equiops DELETE *****
+***** Para borrar un registro de equipos - DELETE *****
 
 {
     "id_e":" "
 }
 
-***** Para borrar un registro de trabajos DELETE *****
+***** Para borrar un registro de trabajos - DELETE *****
 
 {
     "id_t":" "
 }
 
-***** Para borrar un registro de provedores DELETE *****
+***** Para borrar un registro de proveedores - DELETE *****
 
 {
     "id":" "
 }
 
-***** Para borrar un registro de perifericos DELETE *****
+***** Para borrar un registro de periféricos - DELETE *****
 
 {
     "id":" "
 }
 
-***** Para borrar un registro de tecnicos DELETE *****
+***** Para borrar un registro de técnicos - DELETE *****
 
 {
     "id":" "
 }
 
-***** Para listar todos los provedores GET *****
+***** Para listar todos los proveedores - GET *****
 
 http://localhost:3000/provedores
 
-***** Para listar todos los equipos GET *****
+***** Para listar todos los equipos - GET *****
 
 http://localhost:3000/equipos
 
-***** Para listar todos los trabajos GET *****
+***** Para listar todos los trabajos - GET *****
 
 http://localhost:3000/trabajos
 
-***** Para listar todos los tecnicos GET *****
+***** Para listar todos los técnicos - GET *****
 
 http://localhost:3000/tecnicos
 
-***** Para listar todos los perifericos GET *****
+***** Para listar todos los periféricos - GET *****
 
 http://localhost:3000/perifericos
 
-***** Para buscar un solo registro segun su ID de provedor GET *****
+***** Para buscar un solo registro según su ID de proveedor - GET *****
 
 http://localhost:3000/provedores/(aqui va el id)
 
-***** Para buscar un solo registro segun su ID de equipo GET *****
+***** Para buscar un solo registro según su ID de equipo - GET *****
 
 http://localhost:3000/equipos/(aqui va el id)
 
-***** Para buscar un solo registro segun su ID de trabajo GET *****
+***** Para buscar un solo registro según su ID de trabajo - GET *****
 
 http://localhost:3000/trabajos/(aqui va el id)
